@@ -11,6 +11,8 @@ public class RestaurantItem implements Serializable{
     
 
     private String Name;
+    
+    /*Note that TypeOfItem will be strings that are either: Food, Drink, or Merch*/
     private String TypeOfItem;
     private String Description;
     private Double Price;
